@@ -112,7 +112,7 @@ const CategoryEdit = () => {
         <>
             <div className="w-full max-w-md mx-auto bg-white shadow-md rounded px-4 pt-4 pb-4 mb-4">
                 <div className="flex justify-between border-b-2 pb-4 mb-2">
-                    <h3 className='h4'>Add new category</h3>
+                    <h3 className='h4'>Edit category</h3>
 
                     <div>
                         <CustomButton text="<< Back" path="/dashboard/post/category" />

@@ -26,6 +26,7 @@ import TagEdit from '../dashboard/pages/post/tags/TagEdit'
 import PostAll from '../dashboard/pages/post/posts/PostAll'
 import PostCreate from '../dashboard/pages/post/posts/PostCreate'
 import PostEdit from '../dashboard/pages/post/posts/PostEdit'
+import Home from '../frontend/pages/Home'
 
 
 export const router = createBrowserRouter([
@@ -185,7 +186,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <div>Frontend</div>,
+                element: <Home />,
             },
 
         ]

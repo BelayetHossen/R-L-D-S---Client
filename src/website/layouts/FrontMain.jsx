@@ -1,9 +1,14 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from '../frontend/shared/Header';
+import Footer from '../frontend/shared/Footer';
 
 const FrontMain = () => {
     return (
         <>
-            This is frontend
+            <Header />
+            <Outlet />
+            <Footer />
         </>
     );
 };
